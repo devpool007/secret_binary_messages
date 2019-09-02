@@ -7,6 +7,7 @@ int main(void)
 	FILE *fptr;
 	char filename[15];
 	char ch;
+	printf("Enter file name:\n");
 	scanf("%s", filename);
     /*  open the file for reading */
     fptr = fopen(filename, "r");
